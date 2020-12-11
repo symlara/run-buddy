@@ -142,13 +142,13 @@ section {
 /*What We Do End*/
 
 .section-title {
-    font-size: 55px;
     display: inline-block;
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
     padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
-    margin-bottom: 35px;
-    color: #024e76;
-  }
+}
 
 .primary-border {
     border-color: #fce138;
@@ -241,6 +241,12 @@ section {
 /* Your Trainers Section End */
 
 /* Reach Out Info Section*/
+
+.section-title {
+    font-size: 55px;
+    display: inline-block;
+    padding: 0 100px 20px 100px;
+}
 
 .contact {
     text-align: center;
