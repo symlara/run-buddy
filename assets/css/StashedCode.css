@@ -480,6 +480,23 @@ section {
       }
     }
 
+    /* service plans section */
+
+.service-grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: repeat(4, minmax(25px, auto));
+}
+
+.service-grid-item {
+width: 200px;
+height: 50px;
+background-color: orange;
+border: solid;
+color: black;
+}
+
+/* service plan section end */
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
